@@ -1,0 +1,15 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Olá mundo!");
+		int ano_nasci = 1989;
+		int ano_atual = 2022;
+		int idade_atual = ano_atual- ano_nasci;
+		String frase = "A sua idade atual é: ";
+		System.out.println(frase + idade_atual);
+
+	}
+
+}

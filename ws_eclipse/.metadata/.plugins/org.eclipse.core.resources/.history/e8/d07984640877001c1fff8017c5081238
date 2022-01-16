@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Olá mundo!");
+		int ano_nasci = 1989;
+		int ano_atual = 2022;
+		int idade_atual = ano_nasci - ano_atual;
+		System.out.println(idade_atual);
+
+	}
+
+}
