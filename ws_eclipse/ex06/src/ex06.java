@@ -14,11 +14,11 @@ public class ex06 {
 		B = sc.nextDouble();
 		C = sc.nextDouble();
 		
-		TRIANGULO = (A * C) / 2;
-		CIRCULO = A;
-		TRAPEZIO = A;
-		QUADRADO = A;
-		RETANGULO = A;
+		TRIANGULO = (A * C) / 2.0;
+		CIRCULO = 3.14159 * (C * C);
+		TRAPEZIO = ((A + B) * C)/2.0;
+		QUADRADO = B * B;
+		RETANGULO = A * B;
 		
 		System.out.printf("TRIANGULO: %.3f%n", TRIANGULO);
 		System.out.printf("CIRCULO: %.3f%n", CIRCULO);
