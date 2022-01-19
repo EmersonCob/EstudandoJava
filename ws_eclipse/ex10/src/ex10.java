@@ -15,7 +15,9 @@ public class ex10 {
 			horaFinal += 24; 
 		} 
 		
-		System.out.printf("O JOGO DUROU %d HORA(S)", horaFinal - horaInicio);
+		System.out.printf("O JOGO DUROU %d HORA(S)%n", horaFinal - horaInicio);
+		
+		sc.close();
 	}
 
 }
