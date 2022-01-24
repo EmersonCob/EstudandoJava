@@ -13,7 +13,7 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		
 		int n = sc.nextInt();
-		Product[] vect = new Product();
+		Product[] vect = new Product[n];
 		
 		for(int i=0; i<vect.length; i++) {
 			sc.nextLine();
