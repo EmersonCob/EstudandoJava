@@ -10,6 +10,8 @@ public class ex01 {
         B = sc.nextInt();
         SOMA = A + B;
         System.out.println("SOMA = " + SOMA);
+        
+        sc.close();
 
 	}
 
