@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class URI_1044 {
+public class URI_1046 {
 
 	public static void main(String[] args) {
 		
@@ -9,11 +9,13 @@ public class URI_1044 {
 		int x = sc.nextInt();
 		int y = sc.nextInt();
 		
-		if (x % y == 0 || y % x == 0) {
-			System.out.println("Sao Multiplos");
+		int hs; 
+		if (x < y) {
+			hs = y - x;
 		} else {
-			System.out.println("Nao sao Multiplos");
+			hs = 24 - x + y;
 		}
+		System.out.printf("O JOGO DUROU %d HORA(S)%n", hs);
 		
 		sc.close();
 	}
