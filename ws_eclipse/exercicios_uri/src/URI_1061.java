@@ -70,6 +70,8 @@ public class URI_1061 {
 		
 		duracao = fim - inicio; // obtem o tempo em segundos do evento.
 		
+		// nas próximas etapas divide os segundos por hora, minuto, segundo usando o mod.
+		
 		w = duracao / dia;
 		resto = duracao % dia;
 		
