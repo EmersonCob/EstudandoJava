@@ -15,7 +15,7 @@ public class URI_1036 {
 		b = sc.nextDouble();
 		c = sc.nextDouble();
 		
-		x = Math.pow(b, 2) - 4 * a * c;
+		x = Math.pow(b, 2) - 4.0 * a * c;
 		r1 = (- b + Math.sqrt(x)) / (2 * a);
 		r2 = (- b - Math.sqrt(x)) / (2 * a);
 		
