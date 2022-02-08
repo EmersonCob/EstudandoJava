@@ -14,5 +14,6 @@ Repositorio de produto: OK
 Serviço de produto: OK
     obterTodos, obterPorId, adicionar, atualizar, deletar.
 
-Conroller de produto:
+Conroller de produto: OK
     obterTodos, obterPorId, adicionar, atualizar, deletar.
+    
