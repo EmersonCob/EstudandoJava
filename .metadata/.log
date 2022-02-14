@@ -5211,3 +5211,18 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 18:41:21.743
 !MESSAGE executing callback sts4.classpath.VOIoTcgn SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 21:30:44.360
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.VOIoTcgn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 21:30:44.361
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.VOIoTcgn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 21:30:44.362
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-10 21:30:44.362
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.VOIoTcgn => OK
+
+!ENTRY org.eclipse.ui 2 2 2022-02-10 21:30:45.190
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
